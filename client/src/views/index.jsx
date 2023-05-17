@@ -5,4 +5,4 @@ import Landing from "./landingPage/Landing";
 
 
 
-export {Detail, Form, Home, Landing}
+export {Detail, Form, Home, Landing};

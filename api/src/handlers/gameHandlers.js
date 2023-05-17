@@ -42,6 +42,7 @@ const game_get_Handler = async (req, res)=>{
 const createHandler = async (req, res)=>{
           try {
             const {name, description, released, image, rating, platform, gender} = req.body; 
+            console.log(req.body);
             const aux = await newGame(name, description, released, image, rating, platform, gender)
             res.status(200).json(aux) 
     
