@@ -13,7 +13,7 @@ const getGenderByName = async (name)=>{
 const getGender = async ()=>{
     const aux = await Gender.findAll()
     return aux
-}
+};
 
 
 
